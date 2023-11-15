@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+   <test name="chrome Test">
+  
+  	 <parameter name="browserName" value="chrome" />
+
+        <parameter name="browserVersion" value="118.0" />
+
+        <parameter name="platformName" value="Windows 10"></parameter>
+
+        <classes>
+
+            <class name="testdemo.lambdaTest" />
+
+        </classes>
+
+    </test>
+
+     <test name="edge Test">
+
+        <parameter name="browserName" value="edge" />
+
+        <parameter name="browserVersion" value="118.0" />
+
+        <parameter name="platformName" value="Windows 10"></parameter>
+
+        <classes>
+
+            <class name="testdemo.lambdaTest" />
+
+        </classes>
+
+    </test>
+ 
+</suite> <!-- Suite -->
